@@ -1,0 +1,5 @@
+For analysing language translations in [[https://github.com/pioneerspacesim/pioneer][pioneer space sim]] especially to resolve
+issue [[https://github.com/pioneerspacesim/pioneer/issues/6402][#6402]].
+
+This is also an exercise in getting back to python programming after
+dilly-dallying about.
