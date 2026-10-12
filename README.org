@@ -3,3 +3,15 @@ issue [[https://github.com/pioneerspacesim/pioneer/issues/6402][#6402]].
 
 This is also an exercise in getting back to python programming after
 dilly-dallying about.
+
+* Install dependencies
+
+  Install =uv=, through your distribution's package manager (as =uv= or
+  =python-uv=), or:
+  : curl -LsSf https://astral.sh/uv/install.sh | sh
+
+  for command line operation, run
+  : uv run push_to_transifex.py
+  and all shall be revealed, or
+
+  : uv run fix-completion-level.py

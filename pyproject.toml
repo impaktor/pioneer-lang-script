@@ -1,0 +1,23 @@
+[project]
+name = "pioneer-transifex-fix"
+version = "0.1.0"
+description = "untranslate key strings in transifex"
+authors = [
+    { name = "Karl F", email = "karlfogel@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "loguru>=0.7.3",
+    "pydantic>=2.14.0",
+    "pydantic-settings>=2.15.0",
+    "requests>=2.34.2",
+    "six>=1.17.0",
+    "transifex-python>=3.7.0",
+]
+
+[project.scripts]
+pioneer-transifex-fix = "pioneer_transifex_fix:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"

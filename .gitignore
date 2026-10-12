@@ -1,0 +1,5 @@
+__pycache__
+config.env
+.venv
+.ruff_cache
+logfile*
